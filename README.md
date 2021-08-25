@@ -20,7 +20,7 @@ clone repo
 run `yarn start`
 
 # Live Version
-#### URL: [Start managing invoices](https://startup-progress-ayezahmed.vercel.app)
+#### URL: [Start managing invoices](https://invoice-app-front-ayezahmed.vercel.app/)
 
 # Author
 Saintaze [@saintaze](https://github.com/saintaze/)
