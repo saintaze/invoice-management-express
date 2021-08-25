@@ -6,7 +6,7 @@ export const connectDatabase = async (app) => {
 		await mongoose.connect(CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: true});
 		const router = await import('../routes/index.js');
 		app.use('/api', router.default);
-		app.listen(PORT, console.log(`server listening on port ${PORT}`));
+		app.listen(process.env.PORT || PORT, console.log(`server listening on port ${PORT}`));
 	} catch (error) {
 		process.exit(1);
 	}	
